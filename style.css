@@ -2,7 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
 }
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4{
+    font-size: 38px;
+    color: black;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+section{
+    padding: 40px 80px;
+}
+
 
 body{
     width: 100%;
@@ -13,8 +47,12 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: rgb(126, 170, 194);
-    box-shadow: 0 5px 15px rgb(rgb(152, 94, 191));
+    background: rgb(125, 73, 130);
+    box-shadow: 0 5px 15px rgb(rgb(125, 73, 130));
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar{
@@ -38,12 +76,12 @@ body{
 }
 
 #navbar li a:hover{
-    color: rgb(15, 161, 161);
+    color: rgb(24, 17, 25);
 }
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: rgb(15, 161, 161);
+    color:  rgb(24, 17, 25);
 }
 
 #navbar li a.active::after,
@@ -51,7 +89,7 @@ body{
     content: "";
     width: 30%;
     height: 2px;
-    background: rgb(15, 161, 161);
+    background:  rgb(24, 17, 25);
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -60,7 +98,35 @@ body{
 
 
 #hero{
-    background-image: url("image/background/background-hero.jpg");
+    background-image: url("images/backgound-hero.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+
+#hero h1{
+    color: rgb(125, 73, 130);
+}
+
+#hero button{
+    background-image: url();
+    background-color: transparent;
+    color: rgb(125, 73, 130);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    font-weight: 700;
+    background-repeat: no-repeat;
 }
 
 
