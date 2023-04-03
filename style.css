@@ -37,6 +37,35 @@ p{
     padding: 40px 80px;
 }
 
+.section-m1{
+    margin: 40px 0;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #087d7d;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
 
 body{
     width: 100%;
@@ -293,6 +322,160 @@ body{
     color: aliceblue;
     font-size: 30px;
     padding: 10px 0;
+}
+
+#banner h2 span{
+    color: black;
+}
+
+#banner button:hover{
+    background-color: #087d7d;
+    color: aliceblue;
+}
+
+#banner2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#banner2 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #70d9ff;
+    width: 660px;
+    height: 50vh;
+    background-size: cover;
+    padding: 30px;
+}
+
+#banner2 .banner-box2{
+    background-color: #ffd476;
+}
+
+#banner2 h4{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#banner2 h2{
+    color: antiquewhite;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#banner2 span{
+    color: antiquewhite;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#banner2 .banner-box:hover button{
+    background-color: #087d7d;
+    border: 1px solid #087d7d;
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #70d9ff;
+    width: 30%;
+    height: 30vh;
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner h3{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#banner3 .banner-box3{
+    background-color: #6197fb;
+}
+
+#banner3 .banner-box4{
+    background-color: #fb61fb;
+}
+
+#banner3 .banner-box5{
+    background-color: #fb6182;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #140f16;
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #17b7b7;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 50%;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(37, 56, 49);
+}
+
+#newsletter p span{
+    color: rgb(179, 255, 250);
+}
+
+#newsletter input{
+    height: 3.1rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #087d7d;
+    color: white;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 
