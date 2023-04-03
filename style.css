@@ -197,6 +197,106 @@ body{
     background-color: #ef6394;
 }
 
+#product1 .product-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+#product1{
+    text-align: center;
+}
+
+#product1 .product{
+    width: 23%;
+    min-height: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(125, 73, 130);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: ease 0.2s;
+    position: relative;
+}
+
+#product1 .product img {
+    height: 280px;
+    width: 110px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .product:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .product .description{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .product .description span{
+    color: #140f16;
+    font-size: 12px;
+}
+
+#product1 .product .description i{
+    font-size: 12px;
+    color: #cda44a;
+}
+
+#product1 .product .description h4{
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(20, 103, 76);
+}
+
+#product1 .product .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgb(174, 234, 224);
+    font-weight: 500;
+    color: #087d7d;
+    border: 1px solid rgb(174, 234, 224);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/banner.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+#banner h4{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+#banner h2{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+
+
 
 
 
