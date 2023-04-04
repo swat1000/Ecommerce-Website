@@ -525,10 +525,14 @@ footer .follow{
 footer .install .row img{
     border: 1px solid cadetblue;
     border-radius: 4px;
+   
 }
 
 footer .install img{
     margin: 10px 0 15px 0;
+    width: auto;
+    width: 250px;
+    height: 80px;
 }
 
 footer .follow i:hover,
