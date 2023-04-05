@@ -389,6 +389,8 @@ body{
     border: 1px solid #087d7d;
 }
 
+/* Styling for Banner3 Section */
+
 #banner3{
     display: flex;
     justify-content: space-between;
@@ -434,6 +436,8 @@ body{
 #banner3 .banner-box5{
     background-color: #fb6182;
 }
+
+/* Styling for Newsletter Section */
 
 #newsletter{
     display: flex;
@@ -486,6 +490,8 @@ body{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+/* Styling for Footer Section */
 
 footer {
     display: flex;
@@ -554,6 +560,8 @@ footer .copywrite{
     width: 100%;
     text-align: center;
 }
+
+/* Media Query for Tablet View */
 
 
 @media(max-width: 799px){
@@ -656,6 +664,8 @@ footer .copywrite{
     }
 }
 
+/* Media query for Mobile View */
+
 @media(max-width: 477px) {
     #header{
         padding: 10px 30px;
@@ -732,11 +742,19 @@ footer .copywrite{
 
     #prod-details .single-pro-image {
         width: 100%;
-        margin-right: 50px;
+    }
+
+    #prod-details .single-pro-details{
+        width: 100%; 
     }
 
 
+
+
 }
+
+
+/* Styling for Shop Page */
 
 
 #page-header{
@@ -775,7 +793,7 @@ footer .copywrite{
     font-weight: 600;
 }
 
-
+/* Styling for Product Page */
 
 
 #prod-details {
@@ -836,6 +854,15 @@ footer .copywrite{
 
 #prod-details .single-pro-details span{
     line-height: 25px;
+}
+
+#prod-details .single-pro-image{
+    width: 100%;
+    margin-right: 0px;
+}
+
+#prod-details .single-pro-details {
+    width: 100%;
 }
 
 
