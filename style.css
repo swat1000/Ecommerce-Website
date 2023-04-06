@@ -136,7 +136,7 @@ body{
 
 
 #hero{
-    background-image: url("images/backgound-hero.jpg");
+    background-image: url("images/hero 2.jpg");
     height: 100vh;
     width: 100%;
     background-position: top 25% right 0;
@@ -144,7 +144,7 @@ body{
     padding: 0 80px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -316,25 +316,26 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(images/banner.jpg);
+    background-image: url(images/banner3.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
+    background-position: center;
 }
 
 #banner h4{
-    color: aliceblue;
+    color: rgb(203, 213, 222);
     font-size: 16px;
 }
 
 #banner h2{
-    color: aliceblue;
+    color: rgb(201, 208, 215);
     font-size: 30px;
     padding: 10px 0;
 }
 
 #banner h2 span{
-    color: black;
+    color: rgb(68, 216, 253);
 }
 
 #banner button:hover{
@@ -355,6 +356,7 @@ body{
     align-items: center;
     text-align: center;
     background-color: #70d9ff;
+    background-image: url(images/banner3.jpg);
     width: 660px;
     height: 50vh;
     background-size: cover;
@@ -363,6 +365,8 @@ body{
 
 #banner2 .banner-box2{
     background-color: #ffd476;
+    background-image: url(images/banner1.jpg);
+
 }
 
 #banner2 h4{
@@ -383,6 +387,7 @@ body{
     font-weight: 500;
     padding-bottom: 15px;
 }
+
 
 #banner2 .banner-box:hover button{
     background-color: #087d7d;
@@ -742,6 +747,7 @@ footer .copywrite{
 
     #prod-details .single-pro-image {
         width: 100%;
+        margin-left: 100px;
     }
 
     #prod-details .single-pro-details{
@@ -856,9 +862,9 @@ footer .copywrite{
     line-height: 25px;
 }
 
-#prod-details .single-pro-image{
-    width: 100%;
-    margin-right: 0px;
+#prod-details .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
 }
 
 #prod-details .single-pro-details {
