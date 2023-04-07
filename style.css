@@ -634,10 +634,18 @@ footer .copywrite{
     }
 
     #hero {
-        height: 70vh;
+        height: 33vh;
         background-position: top 30% right 30%;
         background-size: cover;
         padding: 0px 80px;
+    }
+
+    #hero p{
+        margin: -9px 0px 5px;
+    }
+
+    #hero h4 {
+        padding-bottom: 10px;
     }
 
     #feature{
@@ -657,6 +665,10 @@ footer .copywrite{
         margin: 15px;
     }
 
+    #product1 p {
+        font-size: 20px;
+    }
+
     #banner {
         height: 20vh;
     }
@@ -664,6 +676,7 @@ footer .copywrite{
     #banner2 .banner-box {
         min-width: 100%;
         height: 30vh;
+        margin-top: 30px;
     }
 
     #banner3 {
@@ -671,7 +684,7 @@ footer .copywrite{
     }
 
     #banner3 .banner-box {
-        width: 28%;
+        width: 31%;
     }
 
     #newsletter .form {
@@ -696,18 +709,37 @@ footer .copywrite{
         padding: 10px 30px;
     }
 
-    #hero{
-        padding: 0 20px;
-        background-position: 55%;
+    #hero {
+        padding: 4px;
+        background-position: 55% center;
+        height: 22vh;
+    }
+
+    #hero p {
+        color: rgb(59, 61, 61);
+        font-size: 15px;
+        margin: 0;
     }
 
     h1{
-        font-size: 38px;
+        font-size: 30px;
+        padding: 0px;
+        line-height: 35px;
     }
 
-    h2{
-        font-size: 32%;
+    h2 {
+        font-size: 25px;
+        padding: 0;
+        line-height: 20px;
     }
+
+    #hero h4 {
+        font-size: 15px;
+        padding-bottom: 0px;
+        color: rgb(59, 61, 61);
+    }
+
+    /* Feature Section */
 
     .section-p1{
         padding: 20px;
@@ -726,17 +758,26 @@ footer .copywrite{
         width: 100%;
     }
 
-    #banner{
-        height: 40vh;
+
+    /* Banner Section */
+
+    #banner {
+        height: 27vh;
     }
 
-    #banner2 .banner-box{
-        height: 40vh;
+    #banner2 .banner-box {
+        height: 25vh;
     }
 
     #banner2 .banner-box2{
         margin-top: 20px;
     }
+
+    #banner2 h2 {
+    font-size: 26px;
+    font-weight: 800;
+    padding: 10px;
+}
 
     #banner3 {
         padding: 0 20px;
@@ -744,6 +785,7 @@ footer .copywrite{
 
     #banner3 .banner-box{
         width: 100%;
+        height: 25vh;
     }
 
     #newsletter{
@@ -776,6 +818,12 @@ footer .copywrite{
 
     /* Blog Page */
 
+    #page-header{
+        height: 20vh;
+        padding: 14px;
+        background-position: center;
+    }
+
     #blog {
         padding: 100px 20px 0 20px;
     }
@@ -796,6 +844,27 @@ footer .copywrite{
     #blog .blog-details {
         width: 100%;
     }
+
+    /* About Page */
+
+    #about-head{
+        flex-direction: column;
+    }
+
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div{
+        padding-left: 0px;
+    }
+
+    #about-app .video {
+        width: 100%;
+    }
+
+    
 
 
 }
@@ -984,6 +1053,42 @@ footer .copywrite{
     z-index: -9;
 
 }
+
+/* About page */
+.about-header{
+    background-image: url(images/about.jpg);
+}
+
+#about-head img{
+   width: 50%;
+   height: auto;
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-app{
+    text-align: center;
+}
+
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
 
 
 
